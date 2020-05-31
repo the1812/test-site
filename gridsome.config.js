@@ -24,6 +24,13 @@ module.exports = {
         // Parser options, see: https://www.npmjs.com/package/rss-parser
         parser: {}
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "blog/**/*.md",
+        typeName: "BlogPost"
+      }
     }
   ]
 }
