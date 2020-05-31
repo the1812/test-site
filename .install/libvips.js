@@ -14,6 +14,7 @@ const agent = require('../lib/agent');
 const libvips = require('../lib/libvips');
 const platform = require('../lib/platform');
 
+// const minimumLibvipsVersion = '8.8.1';
 const minimumLibvipsVersion = libvips.minimumLibvipsVersion;
 const distBaseUrl = process.env.npm_config_sharp_dist_base_url || process.env.SHARP_DIST_BASE_URL || `https://gh.api.99988866.xyz/https://github.com/lovell/sharp-libvips/releases/download/v${minimumLibvipsVersion}/`;
 
@@ -71,7 +72,7 @@ try {
     }
     // Download to per-process temporary file
     const tarFilename = ['libvips', minimumLibvipsVersion, platformAndArch].join('-') + '.tar.gz';
-    const tarPathCache = './' + tarFilename
+    const tarPathCache = '../../.install/' + tarFilename
     npmLog.info('sharp', `path = ${tarPathCache}`);
     // const tarPathCache = path.join(libvips.cachePath(), tarFilename);
     if (fs.existsSync(tarPathCache)) {
