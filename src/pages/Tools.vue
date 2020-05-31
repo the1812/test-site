@@ -1,7 +1,7 @@
 <!--
  * @FilePath     : \test-site\src\pages\Tools.vue
  * @Date         : 2020-05-21 09:40:31
- * @LastEditTime : 2020-05-21 11:16:41
+ * @LastEditTime : 2020-05-31 19:29:59
  * @Description  : 工具页面，可将开发的项目链接于此处
 --> 
 
@@ -147,7 +147,7 @@
               </div>
               <div class="media-content">
                 <p class="title is-4">在线演示文档</p>
-                <p class="subtitle is-6">@盛振中</p>
+                <p class="subtitle is-6">@szz1204</p>
               </div>
             </div>
 
