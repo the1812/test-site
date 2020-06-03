@@ -1,7 +1,7 @@
 <!--
  * @FilePath     : \test-site\src\pages\projectInfo_4\TechColumn.vue
  * @Date         : 2020-05-29 11:27:21
- * @LastEditTime : 2020-05-31 11:00:24
+ * @LastEditTime : 2020-05-31 16:19:06
  * @Description  : 技术专栏，小组内部按时间排序
 --> 
 <template>
@@ -28,13 +28,7 @@
 </page-query>
 
 <script>
-import TechInfoCard from "~/components/TechInfoCard.vue";
-
-export default {
-  components: {
-    TechInfoCard,
-  },
-};
+export default { };
 </script>
 
 <style></style>

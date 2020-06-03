@@ -1,7 +1,7 @@
 <!--
  * @FilePath     : \test-site\src\pages\projectInfo_1\TechInfo.vue
  * @Date         : 2020-05-27 15:33:40
- * @LastEditTime : 2020-05-28 14:34:13
+ * @LastEditTime : 2020-05-31 16:34:44
  * @Description  : 技术总结页
 --> 
 <template>
@@ -16,19 +16,19 @@
     </section>
     <div class="columns">
       <div class="column is-three-quarters">
-        <div class="card" :id=$page.sspai.edges[0].node.id>
+        <div class="card" :id="$page.sspai.edges[0].node.id">
           <div class="card-content">
             <p class="title">{{$page.sspai.edges[0].node.title}}</p>
             <p class="subtitle">作者：{{$page.sspai.edges[0].node.creator}}</p>
-            
+
             <b-collapse :open="false" position="is-bottom" aria-id="contentIdForA11y1">
               <a slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">
                 <b-icon :icon="!props.open ? 'menu-down' : 'menu-up'"></b-icon>
                 {{ !props.open ? '查看全文' : '收起' }}
               </a>
               <div class="content">
-              <span v-html="$page.sspai.edges[0].node.content"></span>
-            </div>
+                <span v-html="$page.sspai.edges[0].node.content"></span>
+              </div>
             </b-collapse>
           </div>
 
@@ -46,19 +46,19 @@
           </footer>
         </div>
 
-        <div class="card" :id=$page.sspai.edges[1].node.id>
+        <div class="card" :id="$page.sspai.edges[1].node.id">
           <div class="card-content">
             <p class="title">{{$page.sspai.edges[1].node.title}}</p>
             <p class="subtitle">作者：{{$page.sspai.edges[1].node.creator}}</p>
-            
+
             <b-collapse :open="false" position="is-bottom" aria-id="contentIdForA11y1">
               <a slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">
                 <b-icon :icon="!props.open ? 'menu-down' : 'menu-up'"></b-icon>
                 {{ !props.open ? '查看全文' : '收起' }}
               </a>
               <div class="content">
-              <span v-html="$page.sspai.edges[1].node.content"></span>
-            </div>
+                <span v-html="$page.sspai.edges[1].node.content"></span>
+              </div>
             </b-collapse>
           </div>
 
@@ -76,19 +76,19 @@
           </footer>
         </div>
 
-        <div class="card" :id=$page.sspai.edges[2].node.id>
+        <div class="card" :id="$page.sspai.edges[2].node.id">
           <div class="card-content">
             <p class="title">{{$page.sspai.edges[2].node.title}}</p>
             <p class="subtitle">作者：{{$page.sspai.edges[2].node.creator}}</p>
-            
+
             <b-collapse :open="false" position="is-bottom" aria-id="contentIdForA11y1">
               <a slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">
                 <b-icon :icon="!props.open ? 'menu-down' : 'menu-up'"></b-icon>
                 {{ !props.open ? '查看全文' : '收起' }}
               </a>
               <div class="content">
-              <span v-html="$page.sspai.edges[2].node.content"></span>
-            </div>
+                <span v-html="$page.sspai.edges[2].node.content"></span>
+              </div>
             </b-collapse>
           </div>
 
@@ -106,19 +106,19 @@
           </footer>
         </div>
 
-        <div class="card" :id=$page.sspai.edges[3].node.id>
+        <div class="card" :id="$page.sspai.edges[3].node.id">
           <div class="card-content">
             <p class="title">{{$page.sspai.edges[3].node.title}}</p>
             <p class="subtitle">作者：{{$page.sspai.edges[3].node.creator}}</p>
-            
+
             <b-collapse :open="false" position="is-bottom" aria-id="contentIdForA11y1">
               <a slot="trigger" slot-scope="props" aria-controls="contentIdForA11y1">
                 <b-icon :icon="!props.open ? 'menu-down' : 'menu-up'"></b-icon>
                 {{ !props.open ? '查看全文' : '收起' }}
               </a>
               <div class="content">
-              <span v-html="$page.sspai.edges[3].node.content"></span>
-            </div>
+                <span v-html="$page.sspai.edges[3].node.content"></span>
+              </div>
             </b-collapse>
           </div>
 
@@ -160,10 +160,10 @@ query {
 
 <script>
 export default {
-    name: '技术总结-项目组一',
-    metaInfo: {
-        title: '技术总结'
-    }
+  name: "技术总结-项目组一",
+  metaInfo: {
+    title: "技术总结"
+  }
 };
 </script>
 

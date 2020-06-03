@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    <header class="header">
+    <header class="header" id="hea">
       <strong>
         <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </strong>
@@ -16,9 +16,6 @@
           <p class="level-item">
             <g-link to="/about/">关于</g-link>
           </p>
-          <p class="level-item">
-            <a class="button is-info is-outlined">本页</a>
-          </p>
         </div>
       </nav>
     </header>
@@ -29,7 +26,7 @@
       </main>
     </transition>
     
-    <footer class="footer">
+    <footer class="footer" id="foo">
       <div class="content has-text-centered">
         <p>
           使用<a href="https://gridsome.org">gridsome</a>框架，样式为<a href="https://buefy.org">buefy</a>
@@ -63,18 +60,23 @@ body {
 }
 
 .layout {
-  /* max-width: 760px; */
+  max-width: 1280px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.header {
+.header#hea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   height: 80px;
+}
+
+.footer#foo {
+    background-color: #fafafa;
+    padding: 1.5rem 1.5rem 1.5rem;
 }
 
 .nav__link {
