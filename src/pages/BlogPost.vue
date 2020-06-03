@@ -1,9 +1,8 @@
 <template>
   <Layout>
     <div v-for="edge in $page.posts.edges" :key="edge.node.id">
-      <h2>{{ edge.node.title }}</h2>
+      <a :href="edge.node.path">{{edge.node.title}}</a>
       <p>{{ edge.node.date }}</p>
-      <p v-html="edge.node.content"></p>
     </div>
   </Layout>
 </template>
@@ -16,6 +15,7 @@ query BlogPosts {
         title
         date
         content
+        path
       }
     }
   }

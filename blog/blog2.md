@@ -1,8 +1,8 @@
 ---
-title: Blogging Like a Hacker
+title: Blogging Like a Hacker 2
 lang: en-US
-date: 2019-03-13
-slug: m1
+date: 2019-03-14
+slug: m2
 ---
 
 - [https://blog.csdn.net/jolieLi2019888/article/details/101422740](https://blog.csdn.net/jolieLi2019888/article/details/101422740)

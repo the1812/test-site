@@ -6,6 +6,9 @@
 
 module.exports = {
   siteName: '创新实践测试网站',
+  templates: {
+    BlogPost: '/blog/:year/:month/:slug',
+  },
   plugins: [
     {
       use: "gridsome-source-rss",
