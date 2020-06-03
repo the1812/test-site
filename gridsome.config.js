@@ -6,6 +6,9 @@
 
 module.exports = {
   siteName: '创新实践测试网站',
+  templates: {
+    BlogPost: '/blog/:year/:month/:slug',
+  },
   plugins: [
     {
       use: "gridsome-source-rss",
@@ -23,6 +26,13 @@ module.exports = {
         typeName: "fresh_rss",
         // Parser options, see: https://www.npmjs.com/package/rss-parser
         parser: {}
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "blog/**/*.md",
+        typeName: "BlogPost"
       }
     }
   ]
