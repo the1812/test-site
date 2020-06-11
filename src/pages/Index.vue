@@ -3,7 +3,7 @@
  * @Date         : 2020-05-31 14:22:32
  * @LastEditTime : 2020-05-31 21:18:12
  * @Description  : 首页第三版，加入流展示与跳转项
---> 
+-->
 <template>
   <Layout>
     <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
@@ -131,7 +131,7 @@ export default {
   font-weight: 100;
   line-height: 0.875;
 }
+.tile {
+  min-height: auto;
+}
 </style>
-
-
-
