@@ -6,17 +6,17 @@
 --> 
 <template>
   <Layout>
-      <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+    <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
       <ul>
         <li>
           <a href="/">首页</a>
         </li>
         <li class="is-active">
           <a href="#" aria-current="page">班级详情</a>
-        </li>
+        </li >
       </ul>
     </nav>
-  </Layout>
+  </Layout> 
 </template>
 
 <script>

@@ -4,15 +4,9 @@
  * @LastEditTime : 2020-05-31 21:18:12
  * @Description  : 首页第三版，加入流展示与跳转项
 -->
+
 <template>
   <Layout>
-    <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
-      <ul>
-        <li class="is-active">
-          <a href="#" aria-current="page">首页</a>
-        </li>
-      </ul>
-    </nav>
     <div class="columns">
       <div class="column is-8">
         <div class="tile is-vertical is-parent">
@@ -60,25 +54,77 @@
         </div>
       </div>
       <div class="column is-3">
-        <div class="board">
-          <div class="tile is-parent is-vertical" id="board">
-            <a class="tile" id="banner" :href="/class-info/">
-              <article class="tile is-child notification is-info">
-                <p class="banner-title">班级详情</p>
-              </article>
-            </a>
-            <a class="tile" id="banner" :href="/group-info/">
-              <article class="tile is-child notification is-primary">
-                <p class="banner-title">小组详情</p>
-              </article>
-            </a>
-            <a class="tile" id="banner" :href="/member/">
-              <article class="tile is-child notification is-success">
-                <p class="banner-title">成员信息</p>
-              </article>
-            </a>
-          </div>
-        </div>
+          <article class="panel is-warning">
+        <p class="panel-heading">
+          项目列表
+        </p>
+        <p class="panel-tabs">
+          <a class="is-active">创1</a>
+          <a>创2</a>
+          <a>创3</a>
+          <a>创4</a>
+        </p>
+        <a class="panel-block is-active">
+          星星优品
+        </a>
+        <a class="panel-block">
+          微信小程序
+        </a>
+        <a class="panel-block">
+          创新实践门户网站
+        </a>
+        <a class="panel-block">
+          区块链
+        </a>
+      </article>
+
+      <article class="panel is-info">
+        <p class="panel-heading">
+          成员列表
+        </p>
+        <p class="panel-tabs">
+          <a class="is-active">创1</a>
+          <a>创2</a>
+          <a>创3</a>
+          <a>创4</a>
+        </p>
+        <a class="panel-block is-active">
+          xxxx1
+        </a>
+        <a class="panel-block">
+          xxxxx2
+        </a>
+        <a class="panel-block">
+          xxxxxx3
+        </a>
+        <a class="panel-block">
+          xxxxxx4
+        </a>
+      </article>
+
+      <article class="panel is-success">
+        <p class="panel-heading">
+          问答列表
+        </p>
+        <p class="panel-tabs">
+          <a class="is-active">web开发</a>
+          <a>小程序</a>
+          <a>markdown</a>
+          <a>云服务</a>
+        </p>
+        <a class="panel-block is-active">
+          问题1
+        </a>
+        <a class="panel-block">
+          问题2
+        </a>
+        <a class="panel-block">
+          问题3
+        </a>
+        <a class="panel-block">
+          问题4
+        </a>
+      </article>
       </div>
     </div>
   </Layout>
@@ -131,7 +177,8 @@ export default {
   font-weight: 100;
   line-height: 0.875;
 }
-.tile {
-  min-height: auto;
-}
+
 </style>
+
+
+
