@@ -55,14 +55,8 @@
       </div>
       <div class="column is-3">
           <article class="panel is-warning">
-        <p class="panel-heading">
+        <p class="panel-heading">   
           项目列表
-        </p>
-        <p class="panel-tabs">
-          <a class="is-active">创1</a>
-          <a>创2</a>
-          <a>创3</a>
-          <a>创4</a>
         </p>
         <a class="panel-block is-active">
           星星优品
@@ -77,16 +71,26 @@
           区块链
         </a>
       </article>
-
+     <article class="panel is-success">
+        <p class="panel-heading" href="#">
+          最新讨论
+        </p>
+        <a class="panel-block is-active">
+          问题1
+        </a>
+        <a class="panel-block">
+          问题2
+        </a>
+        <a class="panel-block">
+          问题3
+        </a>
+        <a class="panel-block">
+          问题4
+        </a>
+      </article>
       <article class="panel is-info">
         <p class="panel-heading">
           成员列表
-        </p>
-        <p class="panel-tabs">
-          <a class="is-active">创1</a>
-          <a>创2</a>
-          <a>创3</a>
-          <a>创4</a>
         </p>
         <a class="panel-block is-active">
           xxxx1
@@ -102,29 +106,7 @@
         </a>
       </article>
 
-      <article class="panel is-success">
-        <p class="panel-heading">
-          问答列表
-        </p>
-        <p class="panel-tabs">
-          <a class="is-active">web开发</a>
-          <a>小程序</a>
-          <a>markdown</a>
-          <a>云服务</a>
-        </p>
-        <a class="panel-block is-active">
-          问题1
-        </a>
-        <a class="panel-block">
-          问题2
-        </a>
-        <a class="panel-block">
-          问题3
-        </a>
-        <a class="panel-block">
-          问题4
-        </a>
-      </article>
+ 
       </div>
     </div>
   </Layout>

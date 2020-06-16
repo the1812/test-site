@@ -5,8 +5,10 @@
       <nav class="level">
         <!-- Left side -->
         <div class="level-left">
-            <section>
-    <b-sidebar
+            
+    <!--
+      <section>
+      <b-sidebar
       type="is-light"
       :fullheight="fullheight"
       :fullwidth="fullwidth"
@@ -39,8 +41,9 @@
         </b-menu>
       </div>
     </b-sidebar>
-    <img  @click="open = true" src="https://iknow-pic.cdn.bcebos.com/ac345982b2b7d0a233fd10e0dbef76094b369a92">
+    <img  @click="open = true" src="https://iknow-pic.cdn.bcebos.com/c2fdfc039245d6884d7ca2d9b4c27d1ed21b2454">
   </section>
+        -->
         </div>
 
         <!-- Right side -->
@@ -52,27 +55,25 @@
               <b-navbar-item href="/">
                 首页
             </b-navbar-item>
+              <b-navbar-item href="#">
+                头脑风暴
+            </b-navbar-item>     
+            <b-navbar-dropdown label="项目详情">
+                <b-navbar-item href="/group-info/">
+                    项目简介
+                </b-navbar-item>
+                <b-navbar-item href="#">
+                    项目进度管理
+                </b-navbar-item>
+            </b-navbar-dropdown>
+             <b-navbar-dropdown label="关于">
             <b-navbar-item href="/class-info/">
                 班级详情
             </b-navbar-item>
-            <b-navbar-item href="#">
-                头脑风暴
+             <b-navbar-item href="https://www.yuque.com/groups/openxy/join?token=cfV5vv0O6pKOR0fE">
+                班级语雀文档
             </b-navbar-item>
-            <b-navbar-dropdown label="小组详情">
-                <b-navbar-item href="/group-info/">
-                    创新实践1
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    创新实践2
-                </b-navbar-item>
-                 <b-navbar-item href="#">
-                    创新实践3
-                </b-navbar-item>
-                 <b-navbar-item href="#">
-                    创新实践4
-                </b-navbar-item>
             </b-navbar-dropdown>
-
              <section class="rightSerach">
         <b-field  >
             <b-autocomplete
