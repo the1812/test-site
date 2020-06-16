@@ -48,33 +48,11 @@
 
         <!-- Right side -->
         <div class="level-right">
-          
+          <img src="https://iknow-pic.cdn.bcebos.com/eaf81a4c510fd9f9ce4c4514352dd42a2834a477">
         <b-navbar>
-        <template slot="start">
           
-              <b-navbar-item href="/">
-                首页
-            </b-navbar-item>
-              <b-navbar-item href="#">
-                头脑风暴
-            </b-navbar-item>     
-            <b-navbar-dropdown label="项目详情">
-                <b-navbar-item href="/group-info/">
-                    项目简介
-                </b-navbar-item>
-                <b-navbar-item href="#">
-                    项目进度管理
-                </b-navbar-item>
-            </b-navbar-dropdown>
-             <b-navbar-dropdown label="关于">
-            <b-navbar-item href="/class-info/">
-                班级详情
-            </b-navbar-item>
-             <b-navbar-item href="https://www.yuque.com/groups/openxy/join?token=cfV5vv0O6pKOR0fE">
-                班级语雀文档
-            </b-navbar-item>
-            </b-navbar-dropdown>
-             <section class="rightSerach">
+        <template slot="start">
+           <section class="rightSerach">
         <b-field  >
             <b-autocomplete
                 :data="data"
@@ -99,6 +77,29 @@
             </b-autocomplete>
         </b-field>
     </section>
+              <b-navbar-item href="/">
+                首页
+            </b-navbar-item>
+              <b-navbar-item href="#">
+                头脑风暴
+            </b-navbar-item>     
+            <b-navbar-dropdown label="项目详情">
+                <b-navbar-item href="/group-info/">
+                    项目简介
+                </b-navbar-item>
+                <b-navbar-item href="#">
+                    项目进度管理
+                </b-navbar-item>
+            </b-navbar-dropdown>
+             <b-navbar-dropdown label="关于">
+            <b-navbar-item href="/class-info/">
+                班级详情
+            </b-navbar-item>
+             <b-navbar-item href="https://www.yuque.com/groups/openxy/join?token=cfV5vv0O6pKOR0fE">
+                班级语雀文档
+            </b-navbar-item>
+            </b-navbar-dropdown>
+            
           
         </template>
 
