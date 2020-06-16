@@ -1,7 +1,7 @@
 <!--
  * @FilePath     : \test-site\src\pages\Index.vue
  * @Date         : 2020-05-31 14:22:32
- * @LastEditTime : 2020-05-31 21:18:12
+ * @LastEditTime : 2020-06-16 16:29:03
  * @Description  : 首页第三版，加入流展示与跳转项
 -->
 
@@ -54,77 +54,47 @@
         </div>
       </div>
       <div class="column is-3">
-          <article class="panel is-warning">
-        <p class="panel-heading">
-          项目列表
-        </p>
-        <p class="panel-tabs">
-          <a class="is-active">创1</a>
-          <a>创2</a>
-          <a>创3</a>
-          <a>创4</a>
-        </p>
-        <a class="panel-block is-active">
-          星星优品
-        </a>
-        <a class="panel-block">
-          微信小程序
-        </a>
-        <a class="panel-block">
-          创新实践门户网站
-        </a>
-        <a class="panel-block">
-          区块链
-        </a>
-      </article>
+        <article class="panel is-warning">
+          <p class="panel-heading">项目列表</p>
+          <p class="panel-tabs">
+            <a class="is-active">创1</a>
+            <a>创2</a>
+            <a>创3</a>
+            <a>创4</a>
+          </p>
+          <a class="panel-block is-active">星星优品</a>
+          <a class="panel-block">微信小程序</a>
+          <a class="panel-block">创新实践门户网站</a>
+          <a class="panel-block">区块链</a>
+        </article>
 
-      <article class="panel is-info">
-        <p class="panel-heading">
-          成员列表
-        </p>
-        <p class="panel-tabs">
-          <a class="is-active">创1</a>
-          <a>创2</a>
-          <a>创3</a>
-          <a>创4</a>
-        </p>
-        <a class="panel-block is-active">
-          xxxx1
-        </a>
-        <a class="panel-block">
-          xxxxx2
-        </a>
-        <a class="panel-block">
-          xxxxxx3
-        </a>
-        <a class="panel-block">
-          xxxxxx4
-        </a>
-      </article>
+        <article class="panel is-info">
+          <p class="panel-heading">成员列表</p>
+          <p class="panel-tabs">
+            <a class="is-active">创1</a>
+            <a>创2</a>
+            <a>创3</a>
+            <a>创4</a>
+          </p>
+          <a class="panel-block is-active">xxxx1</a>
+          <a class="panel-block">xxxxx2</a>
+          <a class="panel-block">xxxxxx3</a>
+          <a class="panel-block">xxxxxx4</a>
+        </article>
 
-      <article class="panel is-success">
-        <p class="panel-heading">
-          问答列表
-        </p>
-        <p class="panel-tabs">
-          <a class="is-active">web开发</a>
-          <a>小程序</a>
-          <a>markdown</a>
-          <a>云服务</a>
-        </p>
-        <a class="panel-block is-active">
-          问题1
-        </a>
-        <a class="panel-block">
-          问题2
-        </a>
-        <a class="panel-block">
-          问题3
-        </a>
-        <a class="panel-block">
-          问题4
-        </a>
-      </article>
+        <article class="panel is-success">
+          <p class="panel-heading">问答列表</p>
+          <p class="panel-tabs">
+            <a class="is-active">web开发</a>
+            <a>小程序</a>
+            <a>markdown</a>
+            <a>云服务</a>
+          </p>
+          <a class="panel-block is-active">问题1</a>
+          <a class="panel-block">问题2</a>
+          <a class="panel-block">问题3</a>
+          <a class="panel-block">问题4</a>
+        </article>
       </div>
     </div>
   </Layout>
@@ -177,7 +147,6 @@ export default {
   font-weight: 100;
   line-height: 0.875;
 }
-
 </style>
 
 

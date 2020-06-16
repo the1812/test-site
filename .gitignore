@@ -6,3 +6,4 @@ dist
 .env
 .env.*
 node_modules
+/src/data/*

@@ -8,25 +8,14 @@ const axios = require('axios')
 
 module.exports = function (api) {
   api.loadSource(async actions => {
-    
-  /*
-  
-  // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-    const  videoDataAll  = await axios.get('https://api.bilibili.com/x/web-interface/view?aid=625653117')
-    
-    const videoData = videoDataAll.data
-    // const data = JSON.parse(data)
-
-    // Create a new GraphQL Collection
-    const BiliVedio = actions.addCollection('Bilivedio')
-
-    // Add data to the new collection
-    BiliVedio.addNode({
-      videoInfo: videoData
+    //成员信息
+    const Members = require('./src/data/members.json');
+    const collection = actions.addCollection({
+      typeName: 'MembersInfo'
     })
-  
-  */
-    
+    for (const member of Members) {
+      collection.addNode(member);
+    }
   })
 
   api.createPages(({ createPage }) => {
